@@ -3,7 +3,7 @@ require('dotenv').config()
 const express = require('express')
 const morgan = require('morgan')
 const cors = require('cors')
-const Person = require('./models/person.cjs')
+const Person = require('./models/person.js')
 
 const app = express()
 

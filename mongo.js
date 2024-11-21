@@ -40,6 +40,6 @@ Person.find({})
     console.log('Phonebook:')
     persons.forEach(({name, number}) => {
       console.log(name, number)
-    });
+    })
     mongoose.connection.close()
   })
